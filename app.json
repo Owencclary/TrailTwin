@@ -1,0 +1,108 @@
+{
+  "expo": {
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyAV5S8TsYp9aJNcK9l8fVJTfb-xT1swR5A",
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allowing the use of photos helps you set up your profile and bike rides you can create.",
+        "NSLocationWhenInUseUsageDescription": "Turning on your location allows us to show you bike rides and friends that are nearby.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Turning on your location allows us to show you bike rides and friends that are nearby."
+      },
+      "buildNumber": "1.39.0",
+      "supportsTablet": false,
+      "backgroundColor": "#FDFDF5",
+      "usesAppleSignIn": false,
+      "bundleIdentifier": "com.trailtwin.trailtwin",
+      "usesIcloudStorage": false,
+      "userInterfaceStyle": "light",
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "E174.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "DDA9.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategorySystemBootTime",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "35F9.1"
+            ]
+          }
+        ]
+      }
+    },
+    "web": {
+      "themeColor": "#000000"
+    },
+    "icon": "./assets/app/icon.png",
+    "name": "Trail Twin",
+    "slug": "trailtwin",
+    "extra": {
+      "eas": {
+        "projectId": "2a7e0290-d0ae-4562-80b5-15cc8454ba8b"
+      }
+    },
+    "scheme": "trailtwin",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FDFCF5"
+    },
+    "android": {
+      "package": "com.draftbit.untitledapp",
+      "permissions": [],
+      "versionCode": 39,
+      "adaptiveIcon": {},
+      "backgroundColor": "#FDFDF5",
+      "blockedPermissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT"
+        }
+      ]
+    ],
+    "privacy": "unlisted",
+    "version": "1.39.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "description": "Trail Twin allows users to create events, ride on their own time, and find partners anytime.",
+    "orientation": "portrait",
+    "iosStatusBar": {},
+    "notification": {
+      "color": "#FDFDF5",
+      "androidMode": "default"
+    },
+    "backgroundColor": "#FDFDF5",
+    "allowFontScaling": true,
+    "androidStatusBar": {},
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "androidNavigationBar": {}
+  }
+}
